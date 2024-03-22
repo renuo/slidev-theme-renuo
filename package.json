@@ -30,7 +30,7 @@
     "highlighter": "all",
     "defaults": {
       "fonts": {
-        "sans": "Nunito Sans",
+        "sans": "Montserrat",
         "mono": "Fira Code"
       }
     }

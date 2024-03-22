@@ -1,15 +1,18 @@
 :root {
   /* default theme color */
   /* can be overrided by uses `themeConfig` option */
-  --slidev-theme-primary: #5d8392;
+  --slidev-theme-secondary: #343a40;
+  --slidev-theme-primary: #27D69F;
+  --slidev-theme-tertiary: #25CB97;
 }
 
 .slidev-layout.cover,
 .slidev-layout.intro {
   @apply h-full grid;
+  @apply pl-15 pr-10 pb-10;
 
   h1 {
-    @apply text-6xl leading-20;
+    @apply text-5xl leading-20;
   }
 
   h1 + p {
