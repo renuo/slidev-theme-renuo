@@ -6,22 +6,48 @@
   --slidev-theme-tertiary: #25CB97;
 }
 
+h1 {
+  @apply text-primary;
+}
+
+.slidev-layout {
+  li {
+    list-style: disc;
+    @apply pl-4;
+  }
+
+  li::marker {
+    @apply text-primary;
+  }
+
+  a {
+    @apply text-primary underline border-none;
+  }
+}
+
 .slidev-layout.cover,
 .slidev-layout.intro {
   @apply h-full grid;
-  @apply pl-15 pr-10 pb-10;
+  @apply pl-15 pr-8 pb-10;
 
   h1 {
-    @apply text-5xl leading-20;
+    @apply text-5xl leading-20 text-white;
   }
 
   h1 + p {
-    @apply -mt-2 opacity-50 mb-4;
+    @apply -mt-2 mb-4;
   }
 
   p + h2,
   ul + h2,
   table + h2 {
     @apply mt-10;
+  }
+}
+
+
+.slidev-layout.cover {
+  h1 {
+    @apply mb-35;
   }
 }
