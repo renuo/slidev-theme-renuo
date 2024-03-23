@@ -12,6 +12,10 @@ showContactText: false
 showAddressText: false
 ---
 
+# This is a cover slide
+
+This slide does not have contact and address information
+
 ---
 layout: intro
 ---
@@ -40,10 +44,12 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 ---
+showLogo: false
+---
 
 # Navigation
 
-Hover on the bottom-left corner to see the navigation's controls panel
+This slide is configured to hide the logo
 
 ## Keyboard Shortcuts
 
