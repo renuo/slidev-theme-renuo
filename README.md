@@ -1,6 +1,6 @@
 # slidev-theme-renuo
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-renuo?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-renuo-theme)
+[![NPM version](https://img.shields.io/npm/v/slidev-theme-renuo?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-renuo)
 
 A theme for [Slidev](https://github.com/slidevjs/slidev), inspired by Renuo's branding.
 
@@ -23,7 +23,7 @@ This theme provides the following layouts:
 
 ### Cover
 
-![Cover](./screenshots/cover.png)
+![Cover](https://raw.githubusercontent.com/renuo/renuo-slidev-theme/main/screenshots/cover.png?raw=true)
 
 
 ```markdown
@@ -49,7 +49,7 @@ Presentation slides for engineers
 
 ### Intro
 
-![Intro](./screenshots/intro.png)
+![Intro](https://raw.githubusercontent.com/renuo/renuo-slidev-theme/main/screenshots/intro.png?raw=true)
 
 ```markdown
 ---
@@ -63,7 +63,7 @@ Secondary Heading
 
 ### Default
 
-![Default](./screenshots/default.png)
+![Default](https://raw.githubusercontent.com/renuo/renuo-slidev-theme/main/screenshots/default.png?raw=true)
 
 ```markdown
 ---
@@ -73,7 +73,7 @@ showLogo: true // show the Renuo logo (optional)
 
 ### Quote
 
-![Quote](./screenshots/quote.png)
+![Quote](https://raw.githubusercontent.com/renuo/renuo-slidev-theme/main/screenshots/quote.png?raw=true)
 
 ```markdown
 ---
@@ -83,7 +83,7 @@ layout: quote
 
 ### Full
 
-![Full](./screenshots/full.png)
+![Full](https://raw.githubusercontent.com/renuo/renuo-slidev-theme/main/screenshots/full.png?raw=true)
 
 ```markdown
 ---
@@ -93,7 +93,7 @@ layout: full
 
 ### Center
 
-![Center](./screenshots/center.png)
+![Center](https://raw.githubusercontent.com/renuo/renuo-slidev-theme/main/screenshots/center.png?raw=true)
 
 ```markdown
 ---
@@ -107,7 +107,7 @@ layout: center
 
 This theme supports [Mermaid](https://mermaid-js.github.io/mermaid/) diagrams.
 
-![Mermaid](./screenshots/mermaid.png)
+![Mermaid](https://raw.githubusercontent.com/renuo/renuo-slidev-theme/main/screenshots/mermaid.png?raw=true)
 
 ```markdown
 ```mermaid
