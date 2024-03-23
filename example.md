@@ -122,6 +122,22 @@ const props = defineProps({
 ```
 
 ---
+showLogo: false
+---
+
+# This is a example mermaid diagram
+
+```mermaid
+sequenceDiagram
+    Consumer-->API: Book something
+    API-->BookingService: Start booking process
+    break when the booking process fails
+        API-->Consumer: show failure
+    end
+    API-->BillingService: Start billing process
+```
+
+---
 layout: center
 class: "text-center"
 ---
