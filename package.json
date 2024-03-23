@@ -1,9 +1,13 @@
 {
-  "name": "slidev-theme-renuo-theme",
+  "name": "slidev-theme-renuo",
   "version": "0.0.0",
   "type": "module",
+  "author": "CuddlyBunion341",
   "keywords": [
     "slidev-theme",
+    "renuo",
+    "megabyte-mint",
+    "simple",
     "slidev"
   ],
   "engines": {
