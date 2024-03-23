@@ -67,3 +67,12 @@ h1 {
     @apply text-5xl;
   }
 }
+
+.slidev-layout.full {
+  display: flex;
+
+  .slidev-code-wrapper {
+    overflow: auto;
+    flex: 1;
+  }
+}
