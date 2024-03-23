@@ -2,7 +2,7 @@
 theme: ./
 ---
 
-# Renuo Theme
+# Renuo Presentation Theme
 
 Presentation slides for engineers
 
@@ -12,20 +12,17 @@ showContactText: false
 showAddressText: false
 ---
 
-# This is a cover slide
+# Note
 
-This slide does not have contact and address information
+This cover slide is configured without displaying contact and address information
 
 ---
 layout: intro
 ---
 
-First heading
-
-# This is an intro title
-
-Subheading
-
+Primary Heading
+# Introduction Slide
+Secondary Heading
 ---
 
 
@@ -49,7 +46,7 @@ showLogo: false
 
 # Navigation
 
-This slide is configured to hide the logo
+This particular slide is configured to hide the logo
 
 ## Keyboard Shortcuts
 
@@ -125,7 +122,7 @@ const props = defineProps({
 showLogo: false
 ---
 
-# This is a example mermaid diagram
+# Mermaid Diagram Example
 
 ```mermaid
 sequenceDiagram
@@ -151,35 +148,35 @@ layout: two-cols
 
 # Left
 
-This shows on the left
+The content displayed on the left
 
 ::right::
 
 # Right
 
-This shows on the right
+The content displayed on the right
 
 ---
 layout: two-cols-header
 ---
 
-# This is a header
+# Main Header
 
 ::left::
 
 ## Left Column
-This is some text for the left column
+This is some content for the left column
 
 ::right::
 
 ## Right Column
-This is some text for the right column
+This is some content for the right column
 
 ---
 layout: center
 class: "text-center"
 ---
 
-# Learn More
+# Additional Referernces
 
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/renuo/renuo-slidev-theme)
