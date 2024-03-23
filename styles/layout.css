@@ -76,3 +76,9 @@ h1 {
     flex: 1;
   }
 }
+
+.slidev-layout.quote {
+  blockquote p {
+    @apply text-5 leading-10;
+  }
+}
