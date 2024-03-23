@@ -4,8 +4,6 @@
 
 A theme for [Slidev](https://github.com/slidevjs/slidev), inspired by Renuo's branding.
 
-## Usage
-
 ## Install
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
