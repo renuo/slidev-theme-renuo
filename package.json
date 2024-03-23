@@ -22,7 +22,8 @@
     "prism-theme-vars": "^0.2.4"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.48.7"
+    "@slidev/cli": "^0.48.7",
+    "playwright-chromium": "^1.42.1"
   },
   "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {

@@ -1,31 +1,21 @@
-# slidev-theme-renuo-theme
+# slidev-theme-renuo
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-renuo-theme?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-renuo-theme)
+[![NPM version](https://img.shields.io/npm/v/slidev-theme-renuo?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-renuo-theme)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+A theme for [Slidev](https://github.com/slidevjs/slidev), inspired by Renuo's branding.
 
-<!--
-  Learn more about how to write a theme:
-  https://sli.dev/themes/write-a-theme.html
---->
-
-<!--
-  run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
-
-<!--
-  Put some screenshots here to demonstrate your theme
-
-  Live demo: [...]
--->
+## Usage
 
 ## Install
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
-<pre><code>---
-theme: <b>renuo-theme</b>
----</code></pre>
+
+```markdown
+---
+theme: renuo
+---
+```
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
 
@@ -33,13 +23,105 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 This theme provides the following layouts:
 
-> TODO:
+### Cover
 
-## Components
+![Cover](./screenshots/cover.png)
 
-This theme provides the following components:
 
-> TODO:
+```markdown
+--- 
+layout: cover
+// all values below are optional
+showContactText: true 
+website: https://renuo.ch
+email: hello@renuo.ch
+phone: +41 44 500 55 66
+showAddressText: true 
+addressHeader: Address 
+company: Renuo AG
+street: Industriestrasse 44
+zip: 8304 
+city: Wallisellen 
+---
+
+# Renuo Presentation Theme
+
+Presentation slides for engineers
+```
+
+### Intro
+
+![Intro](./screenshots/intro.png)
+
+```markdown
+---
+layout: intro
+---
+
+Primary Heading
+# Introduction Slide
+Secondary Heading
+```
+
+### Default
+
+![Default](./screenshots/default.png)
+
+```markdown
+---
+showLogo: true // show the Renuo logo (optional)
+---
+```
+
+### Quote
+
+![Quote](./screenshots/quote.png)
+
+```markdown
+---
+layout: quote
+---
+```
+
+### Full
+
+![Full](./screenshots/full.png)
+
+```markdown
+---
+layout: full
+---
+```
+
+### Center
+
+![Center](./screenshots/center.png)
+
+```markdown
+---
+layout: center
+---
+```
+
+## Configurations
+
+### Mermaid
+
+This theme supports [Mermaid](https://mermaid-js.github.io/mermaid/) diagrams.
+
+![Mermaid](./screenshots/mermaid.png)
+
+```markdown
+```mermaid
+sequenceDiagram
+    Consumer-->API: Book something
+    API-->BookingService: Start booking process
+    break when the booking process fails
+        API-->Consumer: show failure
+    end
+    API-->BillingService: Start billing process
+``` 
+```
 
 ## Contributing
 
