@@ -1,3 +1,6 @@
+<script setup>
+import RenuoLogo from "../components/renuoLogo.vue";
+</script>
 <template>
   <div class="slidev-layout">
     <div class="relative w-full h-full">
@@ -8,6 +11,3 @@
     </div>
   </div>
 </template>
-<script setup>
-import RenuoLogo from "../components/renuoLogo.vue";
-</script>

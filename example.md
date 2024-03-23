@@ -7,14 +7,20 @@ theme: ./
 Presentation slides for engineers
 
 ---
+layout: cover
+showContactText: false
+showAddressText: false
+---
+
+---
 layout: intro
 ---
 
-Test
+First heading
 
 # This is an intro title
 
-Test
+Subheading
 
 ---
 
