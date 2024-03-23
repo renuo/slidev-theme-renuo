@@ -1,28 +1,24 @@
 <template>
   <div class="absolute p-5 h-full">
-    <img src="/images/cover.svg" class="h-full object-cover -scale-y-100">
+    <SlideBackground class="top-0" />
   </div>
   <div id="cover-slide" class="slidev-layout cover bg-primary">
     <div class="relative w-full text-white">
-      <div class="absolute right-0 text-right">
-        <h2 class="mb-2">Renuo</h2>
-        <div class="flex flex-col text-3">
-          <span>Renuo AG</span>
-          <span>Industriestrasse 44</span>
-          <span>8304 Walisellen</span>
-        </div>
+      <RenuoContactCard />
+      <RenuoContactInfo />
+      <div class="slot">
+        <slot />
       </div>
-      <div class="absolute bottom-0 left-0 flex">
-        <img src="/images/logo.svg" alt="Renuo" class="self-stretch object-cover h-13" />
-        <div class="flex flex-col ml-4 text-3 items-start justify-center">
-          <span>www.renuo.ch</span>
-          <span>hello@renuo.ch</span>
-          <span>+41 44 500 55 66</span>
-        </div>
-      </div>
-      <slot />
     </div>
   </div>
 </template>
-<script setup>
+
+<script>
+import SlideBackground from "../components/slideBackground.vue";
+import RenuoContactInfo from "../components/renuoContactInfo.vue";
+import RenuoContactCard from "../components/renuoContactCard.vue";
+
+export default {
+  components: {RenuoContactCard, RenuoContactInfo, SlideBackground}
+}
 </script>

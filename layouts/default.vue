@@ -1,12 +1,13 @@
 <template>
   <div class="slidev-layout">
     <div class="relative w-full h-full">
-      <div class="absolute bottom-0 right-0 flex">
-        <img src="/images/logo_green.svg" alt="Renuo" class="self-stretch object-cover h-13" />
+      <div class="absolute bottom-0 right-0 flex text-primary">
+        <RenuoLogo />
       </div>
       <slot />
     </div>
   </div>
 </template>
 <script setup>
+import RenuoLogo from "../components/renuoLogo.vue";
 </script>

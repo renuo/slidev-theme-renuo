@@ -25,10 +25,17 @@ h1 {
   }
 }
 
+.slidev-layout {
+  @apply pl-20 pr-8 pb-10;
+}
+
 .slidev-layout.cover,
 .slidev-layout.intro {
   @apply h-full grid;
-  @apply pl-15 pr-8 pb-10;
+
+  .slot * {
+    @apply bg-primary p-2 w-max;
+  }
 
   h1 {
     @apply text-5xl leading-20 text-white;
@@ -45,9 +52,18 @@ h1 {
   }
 }
 
-
 .slidev-layout.cover {
   h1 {
     @apply mb-35;
+  }
+}
+
+.slidev-layout.intro {
+  h1 {
+    @apply fw-bold;
+  }
+
+  p {
+    @apply text-5xl;
   }
 }
