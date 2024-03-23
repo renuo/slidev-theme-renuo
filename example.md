@@ -146,6 +146,36 @@ layout: quote
 > https://en.wikipedia.org/wiki/Ruby_on_Rails
 
 ---
+layout: two-cols
+---
+
+# Left
+
+This shows on the left
+
+::right::
+
+# Right
+
+This shows on the right
+
+---
+layout: two-cols-header
+---
+
+# This is a header
+
+::left::
+
+## Left Column
+This is some text for the left column
+
+::right::
+
+## Right Column
+This is some text for the right column
+
+---
 layout: center
 class: "text-center"
 ---
